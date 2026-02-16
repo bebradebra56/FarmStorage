@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/farm_storage_graph"
+    app:startDestination="@id/farmStorageLoadFragment">
+
+    <fragment
+        android:id="@+id/farmStorageLoadFragment"
+        android:name="com.farmerinven.apsola.eiowjf.presentation.ui.load.FarmStorageLoadFragment"
+        android:label="FarmStorageLoadFragment" >
+        <action
+            android:id="@+id/action_farmStorageLoadFragment_to_farmStorageV"
+            app:destination="@id/farmStorageV"
+            app:popUpTo="@id/farm_storage_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/farmStorageV"
+        android:name="com.farmerinven.apsola.eiowjf.presentation.ui.view.FarmStorageV"
+        android:label="FarmStorageV" />
+</navigation>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "976399038904",
+    "project_id": "farmstorage-d1658",
+    "storage_bucket": "farmstorage-d1658.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976399038904:android:e7e05d49836b8c04f2b74d",
+        "android_client_info": {
+          "package_name": "com.farmerinven.apsola"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD4ZLPZTj_ASZv0cA--tUAK6FJ7ID2XzI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
