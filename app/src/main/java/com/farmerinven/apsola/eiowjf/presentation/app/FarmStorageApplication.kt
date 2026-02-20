@@ -125,9 +125,7 @@ class FarmStorageApplication : Application() {
                                 Log.d(FARM_STORAGE_MAIN_TAG, "After 5s: $resp")
                                 if (resp?.get("af_status")?.jsonPrimitive?.content == "Organic" || resp?.get("af_status") == null) {
                                     farmStorageResume(
-                                        FarmStorageAppsFlyerState.FarmStorageSuccess(
-                                            p0
-                                        )
+                                        FarmStorageAppsFlyerState.FarmStorageError
                                     )
                                 } else {
                                     farmStorageResume(
